@@ -83,7 +83,7 @@ nav ul li a:hover {
 
 .hero p {
   font-size: 20px;
-  max-width: 480px;
+  max-width: 800px;
   margin: 0 auto 30px;
 }
 
@@ -209,6 +209,12 @@ section:nth-child(even) {
 .health-card h3 {
   color: #003b71;
   margin-bottom: 15px;
+}
+
+.health-card h4 {
+  color: #525252;
+  margin-top: -12px;
+  margin-bottom: 12px;
 }
 
 /* Technology Section */
