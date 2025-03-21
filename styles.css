@@ -362,16 +362,44 @@ footer {
     font-size: 32px;
   }
 
+  .hero p {
+    font-size: 18px;
+  }
+
   .about-content {
     flex-direction: column;
   }
 
   .about-image {
-    margin-top: 30px;
+    margin: 0 auto 30px auto;
     order: -1;
+  }
+
+  .about-text {
+    min-width: auto;
+    padding: 0;
   }
 
   .feature-card {
     width: 100%;
+    min-width: auto;
+  }
+
+  .health-cards {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-form {
+    padding: 0;
+    min-width: auto;
+  }
+
+  .contact-form form {
+    padding: 20px;
+  }
+
+  .contact-info {
+    min-width: auto;
   }
 }
